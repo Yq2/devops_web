@@ -17,7 +17,7 @@ func reLaunch() {
 }
 
 func firstPage(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h2> webserver DevOps 入口</h2>")
+	io.WriteString(w, "<h2> webserver DevOps reLaunch </h2>")
 	reLaunch()
 }
 
