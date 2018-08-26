@@ -10,10 +10,11 @@ cd devops_web/
 
 cd ./webserver/
 
+rm -rf main
 rm -rf webserver
 
 go build main.go
 
-chmod 777 webserver
+chmod 777 main
 
-./webserver &
+./main &

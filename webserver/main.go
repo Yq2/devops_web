@@ -6,7 +6,7 @@ import (
 )
 
 func firstPage(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h2> 杨强 devops_web </h2>")
+	io.WriteString(w, "<h2> Yq2 devops_web v1.0.9 </h2>")
 }
 
 func main () {
